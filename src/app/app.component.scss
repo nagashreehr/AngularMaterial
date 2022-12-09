@@ -1,83 +1,83 @@
 .example-card {
   max-width: 400px;
 }
-.example-card1 {
-  max-width: 400px;
-  padding-bottom:3%;
-}
-.example-card2 {
-  max-width: 400px;
-  padding-bottom:0%;
-}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
+  padding-left: 4%;
+  padding-top: 5%;
+  margin: 2%;
 }
-.icon{
-  float: right;
+
+.icon {
   color: white;
-  padding-top: 5px;
 }
-.head{
-  background-color:#0002A1;
-}
-.title{
+
+.title {
   color: white;
   margin-right: 60%;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  vertical-align: center;
 }
-.demo-section  {
+.head {
+  background-color: blue;
+}
+
+.demo-section {
   margin-top: 16px;
   float: left;
   margin-left: 5%;
   margin-bottom: 5%;
 }
-.icon1{
-  float: right;
+
+.iconAccent {
   color: white;
-  padding-top: 5px;
 }
-.head1{
-  background-color:#FB2576;
+
+.headAccent {
+  background-color: #fb2576;
 }
-.title1{
-  color: white;
-  margin-right: 60%;
-  padding-bottom: 10px;
-}
-.icon2{
-  float: right;
-  color: white;
-  padding-top: 5px;
-}
-.head2{
-  background-color:#E0144C;
-}
-.title2{
+
+.titleAccent {
   color: white;
   margin-right: 60%;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  vertical-align: center;
 }
-.fav{
-  float:right;
-  padding-left: 60%;
+
+.iconWarn {
+  float: right;
+  color: white;
+  padding-top: 4px;
 }
-.share{
-  float:right;
-  padding-left: 1%;
+
+.headWarn {
+  background-color: #e0144c;
 }
-.fav1{
-  float:right;
-  padding-left: 75%;
-  margin-top: 10%;
+
+.titleWarn {
+  color: white;
+  margin-right: 60%;
+  padding-bottom: 20px;
+  vertical-align: center;
 }
-.share1{
-  float:right;
-  padding-left: 2%;
-  margin-top: 10%;
-}
-.p{
+.p {
   align-items: center;
   margin-top: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+img {
+  width: 100%;
+}
+mat-card-content {
+  padding: 0;
+}
+.cardActions {
+  float: right;
+  padding-top: 6%;
+}
+.fav {
+  margin-right: 5px;
 }
